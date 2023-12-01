@@ -1,0 +1,63 @@
+/* Typography */
+
+@font-face {
+  font-family: alien;
+  src: url(./fonts/alien.ttf);
+}
+
+h1, p {
+  text-align: center;
+  font-family: alien;
+  font-weight: bolder;
+  color: aqua;
+}
+
+/* General Styling */
+body {
+  background-image: url(./images/mars-sky-night-background-asset-game-2d-futuristic-generative-ai.jpg);
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  height: 100vh;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  font-family: alien;
+  font-size: 10rem;
+  text-align: center;
+  color:#fff;
+  text-shadow:1px 1px 5px #fff, 1px 1px 10px #ccc;
+}
+
+
+/* Hover effect for cursor */
+.square:hover {
+  color: aqua;
+}
+
+.outer-box {
+  
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 610px;
+  margin: 0 auto;
+}
+
+
+.restart {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.guess-box {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
